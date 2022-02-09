@@ -199,8 +199,12 @@ a {
     padding: 0 6vw;
 }
 
-.slide_image {
-    /* border: 5px solid #9c0bf0; */
+.line-height-15 {
+    line-height: 1.5!important;
+}
+
+.line-height-18 {
+    line-height: 1.8!important;
 }
 
 
@@ -346,13 +350,27 @@ a {
 }
 
 .top_title {
-    /* 1. ACTIVATE BOTS */
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     color: #333;
     text-transform: uppercase;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.navbar_button p {
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+
+.roadmap-padding {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    background-color: #fff!important;
 }
 
 /* button animation */
@@ -657,6 +675,12 @@ a {
     padding: 5px 30px;
     color: #fff;
     border-radius: 50px;
+    transition: .3s;
+}
+
+.join-button:hover {
+    color: #000;
+    border: 1px solid #000!important;
 }
 
 .team-caption {
@@ -1106,31 +1130,6 @@ h4 {
     }
 }
 
-
-.swiper-wrapper {
-    align-items: center;
-}
-
-.line-height-15 {
-    line-height: 1.5;
-}
-
-.line-height-18 {
-    line-height: 1.8;
-}
-
-.navbar_button p {
-    font-size: 2.2vw;
-    margin-bottom: 0;
-}
-
-.roadmap-padding {
-    padding-left: 8% !important;
-    padding-right: 8% !important;
-    background-color: #fff!important;
-}
-
-
 @media only screen and (max-width: 576px) {
     .pc {
         display: none;
@@ -1191,56 +1190,6 @@ h4 {
     }
 }
 
-.section-divider {
-    border: 3px dashed #9c0bf0;
-}
-
-.section-divider {
-    margin: 50px 0;
-}
-
-.commingsoon-section {
-    margin-bottom: 50px;
-}
-
-.common-back {
-    margin-bottom: 60px;
-}
-
-.mushroom-nft {
-     font-family: 'megrimfont';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 32px;
-     line-height: 40px;
-     margin-left: 50px;
-}
-
-.slide-section {
-    margin-top: 80px;
-}
-
-.ml-10 {
-    margin-left: 10px;
-}
-
-.owl-sub-item {
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.owl-carousel-block {
-    padding: 30px;
-}
-
-.rubberBand {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: middle;
-    padding: 20px;
-}
-
 @media only screen and (max-width: 480px) {
     .navbar_right {
         position: absolute;
@@ -1256,5 +1205,3 @@ h4 {
         top: 100px;
     }
 }
-
-/* main  ENd */

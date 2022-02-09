@@ -117,15 +117,15 @@ function App() {
 				<div className="navbar_logo float-left">CoolBeez</div>
 			</a>
 			<div className="float-right navbar_right">
-				<div className="d-inline-block">
+				{/* <div className="d-inline-block">
 					<a href="">
 						<img src="./assets/images/discord_black_icon.png" className="social_footer_image"/>
 					</a>
 					<a href="">
 						<img src="./assets/images/twitter_black_icon.png" className="social_footer_image"/>
 					</a>
-				</div>
-				<button className="connect-button btn ml-2 d-inline-block">CONNECT WALLET</button>
+				</div> */}
+				<button className="connect-button btn ml-2 d-inline-block"><i class="fa-solid fa-network-wired"></i> CONNECT</button>
 			</div>
 		</nav>
 
@@ -315,7 +315,7 @@ function App() {
 		</section>
 
 		<section className="join-discord">
-			<div className="row">
+			<div className="row mx-0">
 				<div className="col-md-5 col-sm-12 text-center wow slideInLeft">
 					<img className="discord-bee" src="./assets/images/discord_bee.png"/>
 				</div>
@@ -328,7 +328,7 @@ function App() {
 							Get the latest information about the Honey Bee Club and learn how you can get a spot on the Whitelist
 						</div>
 						<a href="">
-							<button className="join-button">JOIN DISCORD</button>
+							<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
 						</a>
 					</div>
 				</div>
@@ -400,7 +400,7 @@ function App() {
 				</div>
 				<div className="mt-4 accordion-container footer_round wow slideInRight">
 					<button className="accordion py-2">
-						<h1 className="footer-font">Can you add more FAQ from community?</h1>
+						<h1 className="footer-font">Can you add more FAQ?</h1>
 					</button>
 					<div className="panel">
 						<p>Sure, in case of any unanswered question you can alway us on discord.</p>
