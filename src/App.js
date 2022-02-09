@@ -395,7 +395,7 @@ function App() {
 							Do you want to be on the whitelist? 
 							Get all the latest information on the CoolBeez Discord server. Come on in!
 						</div>
-						<a href="">
+						<a href="https://discord.gg/fmWdR5xHPegit">
 							<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
 						</a>
 					</div>
