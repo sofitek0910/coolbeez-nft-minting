@@ -125,12 +125,12 @@ function App() {
 						<img src="./assets/images/twitter_black_icon.png" className="social_footer_image"/>
 					</a>
 				</div> */}
-				<button className="connect-button btn ml-2 d-inline-block"><i class="fa-solid fa-network-wired"></i> CONNECT</button>
+				<button className="connect-button btn ml-2 d-inline-block no-display"><i className="fa-solid fa-network-wired"></i> CONNECT</button>
 			</div>
 		</nav>
 
 		<section className="hero-section wow zoomIn">
-			<img className="width-100" src="./assets/images/BEES_BACKGROUND.jpg"/>
+			<img className="width-100" src="./assets/images/websitebannerblack.png"/>
 		</section>
 
 		<section className="about-section">
@@ -147,15 +147,13 @@ function App() {
 					<div className="pl-md-3">
 						<div className="pt-md-3  wow fadeInUp">
 							<span className="font_general line-height-18">
-								The Cool Beez NFT, also called "CoolBeez" within the community, is the first NFT collection of the Cool Beez 
-								Studios brand. CoolBeez provides owners exclusive 
-								"presale mint" opportunities and early access to every new release from the Cool Beez Studios, 
-								including upcoming P2E games, gaming events, and much more.
+								Coolbeez is a unique Community Utility NFT featuring hand drawn characters and traits, and the first in a series of community collections from the My Meta Foundation
+								Proceeds from the sales of the collection are donated to the Community Development Fund.  The CDF will then purchase virtual real estate in whichever virtual world the community decides upon. 
 							</span>
 						</div>
 						<div className="text-center wow zoomInUp">
 							<button 
-								className="mint_button btn mt-5"
+								className="mint_button btn mt-5 no-display"
 								disabled={claimingNft ? 1 : 0}
 								onClick={(e) => {
 									e.preventDefault();
@@ -176,8 +174,9 @@ function App() {
 				<div className="section_title line-height-15">CoolBeez NFT</div>
 			</div>
 			<div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn">
-				The CoolBeez is a collection of 6,000 generative bees inspired by CoolBeez team.<br/>
-				Each artwork is original, with its own color traits and accessories. The objective was to make each bee unique in order to prioritize quality above quantity.
+				All metaverse real estate, utilities and subsequent revenues generated in the metaverse by the community real estate portfolio will be 100% owned by our NFT holders and held in the CDF. 
+				All holders become virtual-landlords in the new virtual world with an equal share in the real estate portfolio based on the number of NFTs that you hold!
+				The Community Development Fund will also be used to develop anything from game rooms, events halls and stores to VR meeting and private family rooms. 
 			</div>
 			<div className="swiper mySwiper wow fadeIn">
 				<div className="swiper-wrapper">
@@ -209,6 +208,10 @@ function App() {
 
 		<div className="col-12 text-center d-flex justify-content-center pt-30">
 			<span className="section_title gtfcduyjdc wow fadeInUp">THE ROADMAP</span>
+			<div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn">
+				Whilst the My Meta Foundation have an ambitious plan outlined to grow the community as quickly as possible, the whole purpose of this community is for you to decide the roadmap once the foundations have been laid. 
+				There will be votes along the way for all NFT holders, but here is what we have so far:
+			</div>
 		</div>
 		<section className="roadmap pb-5">
 			<div className="roadmap_title_back"></div>
@@ -222,12 +225,12 @@ function App() {
 							<div className="col-md-11 col-10 d-inline mt-4">
 								<div className="">
 									<span className="top_title_num roadmap_font"> </span>
-									<span className="top_title">Saving The World</span>
+									<span className="top_title">March (dates TBC)</span>
 								</div>
 								<div className="font_general line-height-18">
-									With the purchase of Honey Bee NFTs you are directly supporting the activities of 2 non profit organizations 
-									that work towards preserving the bees of planet Earth. Holders of Honey Bee NFTs will have the opportunity 
-									to actively participate in one of the non profits' activities.
+									CoolBeez Smart Contract deployed. <br/>
+									CoolBeez Whitelist Presale. <br/>
+									CoolBeez Public Sale.
 								</div>
 							</div>
 						</div>
@@ -242,12 +245,12 @@ function App() {
 							<div className="col-md-11 col-10 d-inline mt-4">
 								<div className="">
 									<span className="top_title_num roadmap_font"></span>
-									<span className="top_title">Marketing Campaigns</span>
+									<span className="top_title">April</span>
 								</div>
 								<div className="font_general line-height-18">
-									The Honey Bee Club founders team has dedicated over $225.000 into marketing campaigns for our pre-launch and launch phases. 
-									With worldwide partners, the team's vision is to build a long-term project that will bring awareness towards the importance of bees 
-									as well as making sure the floor value of the NFTs rises in correlation with the project development.
+									Community voting round 1/22 – Metaverse land location vote.<br/>
+									Community Meteverse land purchase from CoolBeez launch.<br/>
+									Community voting round 2/22 – Metaverse land usage vote.
 								</div>
 							</div>
 						</div>
@@ -262,12 +265,11 @@ function App() {
 							<div className="col-md-11 col-10 d-inline mt-4">
 								<div className="">
 									<span className="top_title_num roadmap_font"> </span>
-									<span className="top_title">Hiveminded</span>
+									<span className="top_title">May</span>
 								</div>
 								<div className="font_general line-height-18">
-									Once all the Honey Bees are under your safety we will deploy burnable tokens to the holders of at least 3 Honey Bees. 
-									Once our second NFT collection goes live, every holder of 3 Honey Bees will be able to burn that token 
-									in exchange of getting 1 Queen Bee airdropped to their wallet for free.
+									Whitelisting and Discord opening for ‘Anti-Social Elephant Club ’ collection.<br/>
+									Community voting round 3/22 – Community Development Fund usage for 2022 vote. 
 								</div>
 							</div>
 						</div>
@@ -282,11 +284,15 @@ function App() {
 							<div className="col-md-11 col-10 d-inline mt-4">
 								<div className="">
 									<span className="top_title_num roadmap_font"> </span>
-									<span className="top_title">Giving Back</span>
+									<span className="top_title">June</span>
 								</div>
 								<div className="font_general line-height-18">
-									25% of all sales from minting Honey Bee NFTs and Queen Bee NFTs will be donated towards our nonprofit partners on their mission towards the preservation of bees. 
-									This is one of the core values of this project, by donating to these non profit organizations we are together directly assisting the preservation of bees on planet Earth.
+									Anti-Social Elephant Club Smart Contract deployed.<br/>
+									Anti-Social Elephant Club Whitelist Presale.<br/>
+									Anti-Social Elephant Club Airdrop to existing CoolBeez holders.<br/>
+									Anti-Social Elephant Club Public Sale.<br/>
+									Develop new community voting platform.<br/>
+									Develop Metaverse land usage decided in voting round 3.
 								</div>
 							</div>
 						</div>
@@ -301,11 +307,72 @@ function App() {
 							<div className="col-md-11 col-10 d-inline mt-4">
 								<div className="">
 									<span className="top_title_num roadmap_font"> </span>
-									<span className="top_title">Play To Earn Gaming</span>
+									<span className="top_title">July</span>
 								</div>
 								<div className="font_general line-height-18">
-									The game will offer holders of Honey Bee and Queen Bee NFTs the opportunity to earn crypto assets by playing the game. 
-									The Honey Bee Club will start developing their own Play To Earn game after the Honey Bee Club collection is sold out.
+									Whitelist and Discord opening for ‘Pretty But Deadly’ collection.<br/>
+									Community voting round 4/22 – second Metaverse land location vote.<br/>
+									Community Meteverse land purchase from Anti-Social Elephant Club launch.<br/>
+									Community voting round 5/22 – Metaverse land usage vote.<br/>
+									Pretty But Deadly Airdrop to existing community NFT holders.<br/>
+									Community Meteverse Anti-Social Elephant Club land development.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row pb-5 mx-0 position-relative mx-0 wow fadeInUp">
+					<div className="col-md-12">
+						<div className="row rounded roadmap_round py-4">
+							<div className="col-md-1 col-2 d-inline dot_data p-0">
+								<span className="dot"></span>
+							</div>
+							<div className="col-md-11 col-10 d-inline mt-4">
+								<div className="">
+									<span className="top_title_num roadmap_font"> </span>
+									<span className="top_title">August</span>
+								</div>
+								<div className="font_general line-height-18">
+									Pretty But Deadly Smart Contract deployed.<br/>
+									Pretty But Deadly Whitelist Presale.<br/>
+									Pretty But Deadly Airdrop to existing community NFT holders.<br/>
+									Pretty But Deadly Public Sale.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row pb-5 mx-0 position-relative mx-0 wow fadeInUp">
+					<div className="col-md-12">
+						<div className="row rounded roadmap_round py-4">
+							<div className="col-md-1 col-2 d-inline dot_data p-0">
+								<span className="dot"></span>
+							</div>
+							<div className="col-md-11 col-10 d-inline mt-4">
+								<div className="">
+									<span className="top_title_num roadmap_font"> </span>
+									<span className="top_title">September</span>
+								</div>
+								<div className="font_general line-height-18">
+									Ready 4th NFT collection launch as voted on by the community. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row pb-5 mx-0 position-relative mx-0 wow fadeInUp">
+					<div className="col-md-12">
+						<div className="row rounded roadmap_round py-4">
+							<div className="col-md-1 col-2 d-inline dot_data p-0">
+								<span className="dot"></span>
+							</div>
+							<div className="col-md-11 col-10 d-inline mt-4">
+								<div className="">
+									<span className="top_title_num roadmap_font"> </span>
+									<span className="top_title">The Future</span>
+								</div>
+								<div className="font_general line-height-18">
+									The future is your hands!
 								</div>
 							</div>
 						</div>
@@ -325,7 +392,8 @@ function App() {
 							JOIN OUR DISCORD
 						</div>
 						<div className="join-discord-content">
-							Get the latest information about the Honey Bee Club and learn how you can get a spot on the Whitelist
+							Do you want to be on the whitelist? 
+							Get all the latest information on the CoolBeez Discord server. Come on in!
 						</div>
 						<a href="">
 							<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
@@ -340,24 +408,40 @@ function App() {
 				<div className="section_title line-height-15">MEET OUR TEAM</div>
 			</div>
 			<div className="row mx-0">
-				<div className="col-md-4 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
+				<div className="col-lg-1 col-md-0"></div>
+				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 1.png"/>
 					<div className="team-caption">
-						Founder Bee
+						Dan Maguire 
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
+				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 2.png"/>
 					<div className="team-caption">
-						Dev Bee
+						Bart Vonk 
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
+				<div className="col-lg-0 col-md-3 col-sm-0 bingo-col"></div>
+				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 3.png"/>
 					<div className="team-caption">
-						Artist Bee
+						Ella Maguire 
 					</div>
 				</div>
+				<div className="col-lg-0 col-md-3 col-sm-0 bingo-col"></div>
+				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
+					<img className="team-image" src="./assets/images/Mascots V3 4.png"/>
+					<div className="team-caption">
+						Malin Zhang
+					</div>
+				</div>
+				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
+					<img className="team-image" src="./assets/images/Mascots V3 5.png"/>
+					<div className="team-caption">
+						Anon
+					</div>
+				</div>
+				<div className="col-lg-1 col-md-0"></div>
 			</div>
 		</section>
 
@@ -371,39 +455,65 @@ function App() {
 						<h1 className="footer-font">What is CoolBeez?</h1>
 					</button>
 					<div className="panel">
-						<p>CoolBeez is a community driven NFT project made up of 6,000 AI generated NFTs with six trait layers and 100 unique traits on the Ethereum blockchain.</p>
+						<p>CoolBeez is a Community NFT collection with unique holder benefits and is part of the My Meta Foundation. </p>
 					</div>
 				</div>
 				<div className="mt-4 accordion-container footer_round wow slideInRight">
 					<button className="accordion py-2">
-						<h1 className="footer-font">How much is the mint?</h1>
+						<h1 className="footer-font">When will the CoolBeez NFT collection be launched and minted?</h1>
 					</button>
 					<div className="panel">
-						<p>The pre sale price for CoolBeezs is going to be 0.1 Ethereum and if you miss out on the whitelist the remaining dragons will be sold for 0.15 Ethereum. </p>
+						<p>The CoolBeez NFT collection is expected to be launched and minted by the end of March 2022. </p>
 					</div>
 				</div>
 				<div className="mt-4 accordion-container footer_round wow slideInRight">
 					<button className="accordion py-2">
-						<h1 className="footer-font">When is the launch?</h1>
+						<h1 className="footer-font">What is the expected floor price for CoolBeez? </h1>
 					</button>
 					<div className="panel">
-						<p>Launch date currently is TBA and will be announced in our discord.</p>
+						<p>The expected floor price of the CoolBeez NFT collection will be announced on our Discord server shortly. </p>
 					</div>
 				</div>
 				<div className="mt-4 accordion-container footer_round wow slideInRight">
 					<button className="accordion py-2">
-						<h1 className="footer-font">Is there a whitelist?</h1>
+						<h1 className="footer-font">Where can I buy a CoolBeez NFT? </h1>
 					</button>
 					<div className="panel">
-						<p>Yes, we are going to make whitelist. You can find more information about our white list in our discord.</p>
+						<p>You can get hold of a CoolBeez NFT by visiting OpenSea or directly from this page by linking your wallet. CoolBeez NFT collection on OpenSea: https://opensea.io/collection/coolbeez </p>
 					</div>
 				</div>
 				<div className="mt-4 accordion-container footer_round wow slideInRight">
 					<button className="accordion py-2">
-						<h1 className="footer-font">Can you add more FAQ?</h1>
+						<h1 className="footer-font">When will the Whitelist be available? </h1>
 					</button>
 					<div className="panel">
-						<p>Sure, in case of any unanswered question you can alway us on discord.</p>
+						<p>The Whitelist for the CoolBeez NFT collection will be opened by mid-February 2022, but due to the increasing demand that we have already, we may bring this forward. 
+							Places are limited but the first 100 members to join our discord will be guaranteed a place. 
+							Places will also be available through giveaways and competitions hosted on Discord.</p>
+					</div>
+				</div>
+				<div className="mt-4 accordion-container footer_round wow slideInRight">
+					<button className="accordion py-2">
+						<h1 className="footer-font">What utility does the CoolBeez NFT have?  </h1>
+					</button>
+					<div className="panel">
+						<p>CoolBeez NFT owners will own a share in the Community Development Fund and in the virtual metaverse real estate portfolio. Each NFT you hold allows you one vote to decide how the CDF is used to develop the metaverse land that the community owns. </p>
+					</div>
+				</div>
+				<div className="mt-4 accordion-container footer_round wow slideInRight">
+					<button className="accordion py-2">
+						<h1 className="footer-font">How will you grow the community after the CoolBeez collection is sold out? </h1>
+					</button>
+					<div className="panel">
+						<p>The CoolBeez collection is part of the My Meta Foundation. The foundations road map is to release 6 NFT collections throughout 2022 and 2023. The next in the series is ‘Anti-Social Elephant Club’ with work on the project already underway. Holders of all future NFT collections will join the community and proceeds from the sales of the collections will be donated to the same Community Development Fund. As the community grows, so does the fund and the portfolio.</p>
+					</div>
+				</div>
+				<div className="mt-4 accordion-container footer_round wow slideInRight">
+					<button className="accordion py-2">
+						<h1 className="footer-font">Why does the project support good causes and how will that affect the Community Development Fund?</h1>
+					</button>
+					<div className="panel">
+						<p>We believe that the Future of Giving lays in the power of Web 3.0 and we want to create a bridge between our two worlds. The creators will donate a percentage of the foundation’s profits to good causes. The Community Development Fund will NOT be used for charitable donations unless the community decide to do so. </p>
 					</div>
 				</div>
 			</div>

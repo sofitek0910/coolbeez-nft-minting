@@ -33,15 +33,13 @@
 
 /*  my new css */
 body {
-    background-color: #fff;
+    background: url(../images/website_background.png);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .main-grey {
     color: #e5e5e5;
-}
-
-.swiper-slide {
-    background-color: #171717!important;
 }
 
 a {
@@ -106,6 +104,10 @@ a {
 
 .swiper-pagination-bullet-active {
     background: #ffa500!important;
+}
+
+.no-display {
+    display: none!important;
 }
 
 .connect-button {
@@ -192,7 +194,7 @@ a {
 }
 
 .swiper-slide {
-    background-color: #fff!important;
+    background-color: transparent!important;
 }
 
 .coolbeez-content {
@@ -249,7 +251,7 @@ a {
 }
 
 .font_general {
-    color: #000;
+    color: #fff;
     font-size: 28px;
     line-height: 40px;
     /* font-family: 'Rubik'; */
@@ -354,7 +356,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    color: #333;
+    color: #e5e5e5;
     text-transform: uppercase;
 }
 
@@ -370,7 +372,7 @@ a {
 .roadmap-padding {
     padding-left: 8% !important;
     padding-right: 8% !important;
-    background-color: #fff!important;
+    /* background-color: #fff!important; */
 }
 
 /* button animation */
@@ -488,87 +490,6 @@ a {
     }
 }
 
-/* @media only screen and (max-width:780px) {
-    .navbar_logo {
-        font-size: 34px;
-        line-height: 34px;
-    }
-    .fa-align-justify {
-        display: inline-block!important;
-    }
-    .font_default {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .font_undefault {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .font_bgdefault {
-        font-size: 36px;
-        line-height: 64px;
-    }
-    .font_bgundefault {
-        font-size: 36px;
-        line-height: 64px;
-    }
-    .font_general {
-        font-size: 18px;
-        line-height: 18px;
-    }
-    .mint_button {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .navbar_button {
-        font-size: 16px;
-        line-height: 36px;
-        padding: 8px 20px;
-        margin-right: 10px;
-    }
-    .section_title{
-        font-size: 52px;
-        line-height: 52px;
-    }
-
-    .member_desc {
-        font-size: 20px;
-    }
-
-    .ad-text2 {
-        font-size: 26px;
-    }
-
-    .section_title{
-        font-size: 48px;
-        line-height: 48px;
-    }
-    .top_title_num {
-        font-size: 26px;
-        line-height: 48px;
-    }
-    .top_title {
-        font-size: 36px;
-    }
-
-    .top_data {
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .dot {
-        padding: 0px 10px;
-    }
-    .dot_data {
-        margin-top: 55px;
-        padding-right: 15px;
-        padding: 0 !important;
-    }
-    .footer-font {
-        font-size: 30px;
-    }
-
-} */
-
 @media only screen and (max-width:576px) {
     .font_default {
         font-size: 12px;
@@ -605,7 +526,6 @@ a {
 
 .roadmap {
     width: 100%;
-    background: #fff;
 }
 
 .join-discord {
@@ -687,7 +607,7 @@ a {
     margin-top: 20px;
     color: #ffa500;
     font-weight: 900;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 
@@ -723,7 +643,7 @@ img {
 }
 
 .section-qa {
-    background: #fff;
+    background: transparent;
     padding: 5vw 0;
 }
 
@@ -760,12 +680,16 @@ img {
 .accordion:after {
     content: '';
     background: url(../images/arrow.png) no-repeat;
-    width: 3vw;
+    width: 3.5vw;
     height: 3vw;
     background-size: cover;
     font-weight: bold;
     float: right;
     margin-left: 5px;
+}
+
+.bingo-col {
+    display: none;
 }
 
 .active:after {
@@ -811,7 +735,7 @@ h4 {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: transparent;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -871,7 +795,7 @@ h4 {
 
 .roadmap_round {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53);
-    border: solid 3px #ffa60063;
+    border: solid 3px #ffa600f1;
     /* background: #04091a; */
 }
 
@@ -1008,13 +932,19 @@ h4 {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:991px) {
+    .team-caption {
+        font-size: 3vw;
+        margin-bottom: 35px;
+    }
     .common_title {
         font-size: 56px;
         line-height: 78px;
         /* or 167% */
     }
-
+    .bingo-col {
+        display: block;
+    }
     .common_title_other {
         font-size: 32px;
         line-height: 78px;
@@ -1163,7 +1093,7 @@ h4 {
         background-size: cover;
         font-weight: bold;
         float: right;
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
     .panel p {
         font-size: 20px;
