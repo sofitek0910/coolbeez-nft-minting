@@ -208,10 +208,10 @@ function App() {
 
 		<div className="col-12 text-center d-flex justify-content-center pt-30">
 			<span className="section_title gtfcduyjdc wow fadeInUp">THE ROADMAP</span>
-			<div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn">
-				Whilst the My Meta Foundation have an ambitious plan outlined to grow the community as quickly as possible, the whole purpose of this community is for you to decide the roadmap once the foundations have been laid. 
-				There will be votes along the way for all NFT holders, but here is what we have so far:
-			</div>
+		</div>
+		<div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn pt-30">
+			Whilst the My Meta Foundation have an ambitious plan outlined to grow the community as quickly as possible, the whole purpose of this community is for you to decide the roadmap once the foundations have been laid. 
+			There will be votes along the way for all NFT holders, but here is what we have so far:
 		</div>
 		<section className="roadmap pb-5">
 			<div className="roadmap_title_back"></div>
