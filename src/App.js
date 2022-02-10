@@ -32,6 +32,10 @@ function App() {
     SHOW_BACKGROUND: false,
   });
 
+  const comingSoon = () => {
+	swal("CoolBeez NFT coming soon", "", "info");
+  }
+
   const claimNFTs = () => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
@@ -130,7 +134,8 @@ function App() {
 		</nav>
 
 		<section className="hero-section wow zoomIn">
-			<img className="width-100" src="./assets/images/websitebannerblack.png"/>
+			<img className="width-100 website-hero-back" src="./assets/images/websitebannerblack.png"/>
+			<img className="width-100 mobile-hero-back" src="./assets/images/mobilebannerblack.png"/>
 		</section>
 
 		<section className="about-section">
@@ -153,11 +158,11 @@ function App() {
 						</div>
 						<div className="text-center wow zoomInUp">
 							<button 
-								className="mint_button btn mt-5 no-display"
+								className="mint_button btn mt-5 "
 								disabled={claimingNft ? 1 : 0}
 								onClick={(e) => {
 									e.preventDefault();
-									claimNFTs();
+									comingSoon();
 									getData();
 								}}
 								>
@@ -206,10 +211,27 @@ function App() {
 			</div>
 		</section>
 
+		<section className="game-section pt-30">
+			<div className="row mx-0 mt-5">
+				<div className="col-md-4 col-sm-12 text-center wow fadeInLeft">
+					<div className="game-title rubik-font">Sandbox</div>
+					<img className="mt-3 img-thumbnail width-100 game-image" src="./assets/images/sandbox.png"></img>
+				</div>
+				<div className="col-md-4 col-sm-12 text-center wow fadeInLeft">
+					<div className="game-title rubik-font">Decentraland</div>
+					<img className="mt-3 img-thumbnail width-100 game-image" src="./assets/images/decentraland.png"></img>
+				</div>
+				<div className="col-md-4 col-sm-12 text-center wow fadeInLeft">
+					<div className="game-title rubik-font width-100 game-image">Somniumspace</div>
+					<img className="mt-3 img-thumbnail" src="./assets/images/somniumspace.png"></img>
+				</div>
+			</div>
+		</section>
+
 		<div className="col-12 text-center d-flex justify-content-center pt-30">
 			<span className="section_title gtfcduyjdc wow fadeInUp">THE ROADMAP</span>
 		</div>
-		<div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn pt-30">
+		<div className="coolbeez-content text-center font_general line-height-18 wow bounceIn pt-30">
 			Whilst the My Meta Foundation have an ambitious plan outlined to grow the community as quickly as possible, the whole purpose of this community is for you to decide the roadmap once the foundations have been laid. 
 			There will be votes along the way for all NFT holders, but here is what we have so far:
 		</div>
@@ -395,7 +417,7 @@ function App() {
 							Do you want to be on the whitelist? 
 							Get all the latest information on the CoolBeez Discord server. Come on in!
 						</div>
-						<a href="https://discord.gg/fmWdR5xHPegit">
+						<a href="https://discord.gg/fmWdR5xHPegit" target="_blank">
 							<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
 						</a>
 					</div>
@@ -412,12 +434,14 @@ function App() {
 				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 1.png"/>
 					<div className="team-caption">
+						Founder <br/>
 						Dan Maguire 
 					</div>
 				</div>
 				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 2.png"/>
 					<div className="team-caption">
+						Co-Founder <br/>
 						Bart Vonk 
 					</div>
 				</div>
@@ -425,6 +449,7 @@ function App() {
 				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 3.png"/>
 					<div className="team-caption">
+						Visionary <br/>
 						Ella Maguire 
 					</div>
 				</div>
@@ -432,12 +457,14 @@ function App() {
 				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 4.png"/>
 					<div className="team-caption">
+						Dev <br/>
 						Malin Zhang
 					</div>
 				</div>
 				<div className="col-lg-2 col-md-6 col-sm-12 text-center wow zoomInUp" data-wow-offset="150">
 					<img className="team-image" src="./assets/images/Mascots V3 5.png"/>
 					<div className="team-caption">
+						Artist <br/>
 						Anon
 					</div>
 				</div>
@@ -518,6 +545,23 @@ function App() {
 				</div>
 			</div>
 		</section>
+		{/* <section className="social-links text-center">
+			<a href="https://twitter.com/CoolBeezNFT" target="_blank">
+				<i className="fab fa-twitter social-icon"></i>
+			</a>
+			<a href="https://www.facebook.com/coolbeeznft" target="_blank">
+				<i className="fab fa-facebook social-icon"></i>
+			</a>
+			<a href="https://www.instagram.com/coolbeeznft/" target="_blank">
+				<i className="fab fa-instagram social-icon"></i>
+			</a>
+			<a href="https://www.instagram.com/coolbeeznft/" target="_blank">
+				<img className="opensea-image" src="./assets/images/opensea.png"/>
+			</a>
+			<a href=" https://www.mymetafoundation.org/" target="_blank">
+				<i className="fa fa-link social-icon"></i>
+			</a>
+		</section> */}
     </div>
   );
 }

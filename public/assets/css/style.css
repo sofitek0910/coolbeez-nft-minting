@@ -52,7 +52,32 @@ a {
 }
 
 .pt-30 {
+    padding-top: 30px!important;
+}
+
+.mobile-hero-back {
+    display: none;
+}
+
+.social-icon {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #2081e2!important;
+}
+
+.social-links {
+    /* background-color: #333; */
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.opensea-image {
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.fa-link {
+    font-size: 45px;
 }
 
 /* Navbar  BEGIN */
@@ -83,6 +108,15 @@ a {
     font-size: 36px;
     color: #fff;
     font-family: 600;
+}
+
+.game-section {
+    padding: 0 4vw;
+}
+
+.game-title {
+    font-size: 3vw;
+    color: #ffa500;
 }
 
 .member-picture {
@@ -175,6 +209,10 @@ a {
 
 .logo-dragon {
     width: 23%;
+}
+
+.width-100 {
+    width: 100%!important;
 }
 
 .section_title{
@@ -955,6 +993,19 @@ h4 {
 @media only screen and (max-width:768px) {
     .welcome-text-block {
         margin-top: 30px;
+    }
+
+    .mobile-hero-back {
+        display: block;
+    }
+
+    .game-title {
+        margin-top: 50px;
+        font-size: 8vw;
+    }
+
+    .website-hero-back {
+        display: none;
     }
 
     .discord-bee {
