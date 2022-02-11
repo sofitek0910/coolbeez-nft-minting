@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'headlinefont';
-    src: url('../fonts/Comic_Book.ttf');
+    src: url('../fonts/seguibl.ttf');
 }
 
 .headline-font {
@@ -33,9 +33,10 @@
 
 /*  my new css */
 body {
-    background: url(../images/website_background.png);
+    /* background: url(../images/website_background.png);
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #272C34;
 }
 
 .main-grey {
@@ -89,7 +90,7 @@ a {
     font-weight: 500;
     font-size: 60px;
     line-height: 72px;
-    color: #ffa500;
+    color: #00d1ef;
 }
 
 .ad-text-block {
@@ -116,7 +117,7 @@ a {
 
 .game-title {
     font-size: 3vw;
-    color: #ffa500;
+    color: #00d1ef;
 }
 
 .member-picture {
@@ -137,7 +138,7 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-    background: #ffa500!important;
+    background: #fff!important;
 }
 
 .no-display {
@@ -145,7 +146,7 @@ a {
 }
 
 .connect-button {
-    background-color: #ffa500;
+    background-color: #00d1ef;
     color: #fff;
     font-family: 'Rubik';
     font-style: normal;
@@ -221,14 +222,14 @@ a {
     padding-top: 40px;
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
-    line-height: 60px;
-    color: #ffa500;
+    font-size: 55px;
+    line-height: 55px;
+    color: #00d1ef;
 }
 
 .img-thumbnail {
-    background-color: #ffa500;
-    border-color: #ffa500;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .swiper-slide {
@@ -308,7 +309,7 @@ a {
     border-radius: 50px;
     /* identical to box height, or 100% */
     color: #FFFFFF;
-    background-color: #ffa500;
+    background-color: #00d1ef;
     border: 1px solid #fff;
 }
 
@@ -344,6 +345,10 @@ a {
     font-size: 26px;
 }
 
+.team-section {
+    padding-bottom: 50px;
+}
+
 .team_block {
     display: flex;
     justify-content: center;
@@ -355,7 +360,7 @@ a {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    background-color: #ffa500;
+    background-color: #00d1ef;
 
 }
 
@@ -365,7 +370,7 @@ a {
 }
 
 .connected-wallet {
-    background-color: #ffa500;
+    background-color: #00d1ef;
     color: #fff;
     font-family: 'Rubik';
     font-style: normal;
@@ -455,7 +460,7 @@ a {
         line-height: 40px;
     }
     .font_general {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 25px;
     }
     .mint_button {
@@ -463,8 +468,8 @@ a {
         line-height: 38px;
     }
     .section_title{
-        font-size: 68px;
-        line-height: 68px;
+        font-size: 60px;
+        line-height: 60px;
     }
 }
 
@@ -572,7 +577,7 @@ a {
 
 .join-discord-title {
     font-size: 4vw;
-    color: #ffa500;
+    color: #00d1ef;
 }
 
 .discord-bee {
@@ -595,7 +600,7 @@ a {
     padding: 5px 15px;
     margin-left: -5px;
     border-radius: 50%;
-    border: solid 5px #ffa500;
+    border: solid 5px #00d1ef;
     z-index: 99;
 }
 
@@ -603,8 +608,8 @@ a {
     position: absolute;
     content: "";
     width: 4px;
-    background: #ffa500;
-    box-shadow: 0px 0px 7px #f5f102c7;
+    background: #00d1ef;
+    box-shadow: 0px 0px 7px #00cfef42;
     left: 4%;
     top: 125px;
     height: 98%;
@@ -616,7 +621,8 @@ a {
 }
 
 .join-discord {
-    background-color: #272C34;
+    background: url(../images/discord_background.jpg);
+    background-size: 100%;
 }
 
 .join-discord-content {
@@ -627,7 +633,7 @@ a {
 
 .join-button {
     margin-top: 30px;
-    background-color: #ffa500;
+    background-color: #00d1ef;
     font-size:2.8vw;
     border: none;
     padding: 5px 30px;
@@ -643,7 +649,7 @@ a {
 
 .team-caption {
     margin-top: 20px;
-    color: #ffa500;
+    color: #00d1ef;
     font-weight: 900;
     font-size: 2vw;
 }
@@ -682,7 +688,6 @@ img {
 
 .section-qa {
     background: transparent;
-    padding: 5vw 0;
 }
 
 .section-qa .title h2 {
@@ -690,12 +695,12 @@ img {
 }
 
 .accordion-container {
-    border: #ffa500 3px solid;
+    border: #00d1ef 3px solid;
     border-radius: 10px;
 }
 
 .accordion {
-    background-color: #ffa500;
+    background-color: #00d1ef;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -833,7 +838,7 @@ h4 {
 
 .roadmap_round {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53);
-    border: solid 3px #ffa600f1;
+    border: solid 3px #00cfefc4;
     /* background: #04091a; */
 }
 
@@ -1064,7 +1069,7 @@ h4 {
         position: absolute;
         content: "";
         width: 3px;
-        background: #ffa500;
+        background: #00d1ef;
         left: 8%;
         top: 108px;
     }
@@ -1154,9 +1159,9 @@ h4 {
         height: 7vw;
         padding: 0 2vw;
     }
-    .section-qa {
+    /* .section-qa {
         padding: 8vw 0;
-    }
+    } */
     .slide-container .mySwiper {
         padding: 10vw 4vw;
     }
