@@ -1004,6 +1004,10 @@ h4 {
         display: block;
     }
 
+    .character-gif {
+        width: 60%;
+    }
+
     .game-title {
         margin-top: 50px;
         font-size: 8vw;

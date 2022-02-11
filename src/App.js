@@ -166,8 +166,8 @@ function App() {
 			</div>
 			<div className="row mx-0 px-0 pt-30">
 				<div className="col-md-4 mt-md-0 px-5 mr-0 wow rollIn d-flex align-items-center justify-content-center">
-					<div>
-						<img className="img-thumbnail" src="./assets/images/character.gif"/>
+					<div className="text-center">
+						<img className="img-thumbnail character-gif" src="./assets/images/character.gif"/>
 					</div>
 				</div>
 				<div className="col-md-8 d-flex px-5 align-items-center text-center welcome-text-block">
