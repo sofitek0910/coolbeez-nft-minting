@@ -426,6 +426,12 @@ a {
 
 /* button animation */
 @media only screen and (min-width:1366px) {
+    .join-discord-title {
+        font-size: 56px!important;
+    }
+    .join-discord-content {
+        font-size: 27px!important;
+    }
     .game-title {
         font-size: 35px;
     }
@@ -434,7 +440,7 @@ a {
         margin: 0 auto;
     }
     .join-button {
-        font-size: 35px!important;
+        font-size: 38px!important;
     }
     .team-caption{
         font-size: 26px!important;
@@ -981,7 +987,7 @@ h4 {
         font-size: 84px;
         line-height: 150px;
     }
-
+    
     .common_title_other {
         font-family: 'Rubik';
         font-size: 45px;
