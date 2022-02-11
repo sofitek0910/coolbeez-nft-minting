@@ -436,6 +436,9 @@ a {
     .join-button {
         font-size: 35px!important;
     }
+    .team-caption{
+        font-size: 26px!important;
+    }
 }
 
 @media only screen and (max-width:1366px) {

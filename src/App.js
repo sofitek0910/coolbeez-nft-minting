@@ -277,7 +277,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">March (dates TBC)</span>
+												<span className="top_title line-height-12">March (dates TBC)</span>
 											</div>
 											<div className="font_general line-height-12">
 												CoolBeez Smart Contract deployed. <br/>
@@ -297,7 +297,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"></span>
-												<span className="top_title">April</span>
+												<span className="top_title line-height-12">April</span>
 											</div>
 											<div className="font_general line-height-12">
 												Community voting round 1/22 – Metaverse land location vote.<br/>
@@ -317,7 +317,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">May</span>
+												<span className="top_title line-height-12">May</span>
 											</div>
 											<div className="font_general line-height-12">
 												Whitelisting and Discord opening for ‘Anti-Social Elephant Club ’ collection.<br/>
@@ -336,7 +336,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">June</span>
+												<span className="top_title line-height-12">June</span>
 											</div>
 											<div className="font_general line-height-12">
 												Anti-Social Elephant Club Smart Contract deployed.<br/>
@@ -359,7 +359,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">July</span>
+												<span className="top_title line-height-12">July</span>
 											</div>
 											<div className="font_general line-height-12">
 												Whitelist and Discord opening for ‘Pretty But Deadly’ collection.<br/>
@@ -382,7 +382,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">August</span>
+												<span className="top_title line-height-12">August</span>
 											</div>
 											<div className="font_general line-height-12">
 												Pretty But Deadly Smart Contract deployed.<br/>
@@ -403,7 +403,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">September</span>
+												<span className="top_title line-height-12">September</span>
 											</div>
 											<div className="font_general line-height-12">
 												Ready 4th NFT collection launch as voted on by the community. 
@@ -421,7 +421,7 @@ function App() {
 										<div className="col-md-11 col-10 d-inline mt-0">
 											<div className="">
 												<span className="top_title_num roadmap_font"> </span>
-												<span className="top_title">The Future</span>
+												<span className="top_title line-height-12">The Future</span>
 											</div>
 											<div className="font_general line-height-12">
 												The future is your hands!
