@@ -135,7 +135,7 @@ function App() {
 
 		<section className="hero-section wow zoomIn">
 			<img className="width-100 website-hero-back" src="./assets/images/new_banner.png"/>
-			{/* <img className="width-100 mobile-hero-back" src="./assets/images/mobilebannerblack.png"/> */}
+			<img className="width-100 mobile-hero-back" src="./assets/images/new_banner_mobile.png"/>
 		</section>
 
 		<section className="join-discord">

@@ -320,7 +320,7 @@ a {
 
 .footer-font {
     font-weight: 400 !important;
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .footer_round {
@@ -1033,6 +1033,10 @@ h4 {
         font-size: 5vw;
     }
 
+    .footer-font {
+        font-size: 22px;
+    }
+
     .team-image {
         width: 60%;
         margin-top: 30px;
@@ -1057,7 +1061,7 @@ h4 {
         line-height: 50px;
     }
     .panel p {
-        font-size: 22px !important;
+        font-size: 18px !important;
         color: white;
     }
 
@@ -1150,10 +1154,6 @@ h4 {
         font-weight: bold;
         float: right;
         /* margin-left: 5px; */
-    }
-    .panel p {
-        font-size: 20px;
-        color: white;
     }
     .social_footer_image {
         height: 7vw;
