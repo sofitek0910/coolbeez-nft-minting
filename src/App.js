@@ -6,113 +6,9 @@ import swal  from 'sweetalert';
 import styled from "styled-components";
 
 function App() {
-  const dispatch = useDispatch();
-  const blockchain = useSelector((state) => state.blockchain);
-  const data = useSelector((state) => state.data);
-  const [walletAddress, setWallet] = useState("");
-  const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
-  const [mintAmount, setMintAmount] = useState(1);
-  const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
-    NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
-    },
-    NFT_NAME: "",
-    SYMBOL: "",
-    MAX_SUPPLY: 1,
-    FINNEY_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
-    MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
-    SHOW_BACKGROUND: false,
-  });
-
   const comingSoon = () => {
 	swal("CoolBeez NFT coming soon", "", "info");
   }
-
-  const claimNFTs = () => {
-    let cost = CONFIG.WEI_COST;
-    let gasLimit = CONFIG.GAS_LIMIT;
-    let totalCostWei = String(cost * mintAmount);
-    let totalGasLimit = String(gasLimit * mintAmount);
-    console.log("Cost: ", totalCostWei);
-    console.log("Gas limit: ", totalGasLimit);
-    console.log("smartcontract--->", blockchain.smartContract)
-    // setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
-    swal(`Minting your ${CONFIG.NFT_NAME}...`, "", "info");
-    setClaimingNft(true);
-    blockchain.smartContract.methods
-      .publicSaleMint()
-      .send({
-        gasLimit: String(totalGasLimit),
-        to: CONFIG.CONTRACT_ADDRESS,
-        from: blockchain.account,
-        value: totalCostWei,
-      })
-      .once("error", (err) => {
-        console.log(err);
-        swal('Sorry, something went wrong please try again later.',"", "error");
-        // setFeedback("Sorry, something went wrong please try again later.");
-        setClaimingNft(false);
-      })
-      .then((receipt) => {
-        console.log(receipt);
-        swal(`WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`,"", "success");
-        // setFeedback(
-        //   `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
-        // );
-        setClaimingNft(false);
-        dispatch(fetchData(blockchain.account));
-      });
-  };
-
-  const decrementMintAmount = () => {
-    let newMintAmount = mintAmount - 1;
-    if (newMintAmount < 1) {
-      newMintAmount = 1;
-    }
-    setMintAmount(newMintAmount);
-  };
-
-  const incrementMintAmount = () => {
-    let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 20) {
-      newMintAmount = 20;
-    }
-    setMintAmount(newMintAmount);
-  };
-
-  const getData = () => {
-    if (blockchain.account !== "" && blockchain.smartContract !== null) {
-      dispatch(fetchData(blockchain.account));
-    }
-    console.log("account===>", blockchain.account)
-  };
-
-  const getConfig = async () => {
-    const configResponse = await fetch("/config/config.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    });
-    const config = await configResponse.json();
-    SET_CONFIG(config);
-  };
-
-  useEffect(() => {
-    getConfig();
-  }, []);
-
-  useEffect(() => {
-    getData();
-  }, [blockchain.account]);
 
   return (
     <div>
@@ -121,14 +17,6 @@ function App() {
 				{/* <div className="navbar_logo float-left">CoolBeez</div> */}
 			</a>
 			<div className="float-right navbar_right">
-				{/* <div className="d-inline-block">
-					<a href="">
-						<img src="./assets/images/discord_black_icon.png" className="social_footer_image"/>
-					</a>
-					<a href="">
-						<img src="./assets/images/twitter_black_icon.png" className="social_footer_image"/>
-					</a>
-				</div> */}
 				<button className="connect-button btn ml-2 d-inline-block no-display"><i className="fa-solid fa-network-wired"></i> CONNECT</button>
 			</div>
 		</nav>
@@ -162,14 +50,12 @@ function App() {
 							<div className="text-center wow zoomInUp">
 								<button 
 									className="mint_button btn mt-5 "
-									disabled={claimingNft ? 1 : 0}
 									onClick={(e) => {
 										e.preventDefault();
 										comingSoon();
-										getData();
 									}}
-									>
-									{claimingNft ? "MINTING..." : "MINT"}
+								>
+									MINT
 								</button>
 							</div>
 						</div>
@@ -191,7 +77,7 @@ function App() {
 								Do you want to be on the whitelist? 
 								Get all the latest information on the CoolBeez Discord server. Come on in!
 							</div>
-							<a href="https://discord.gg/fmWdR5xHPegit" target="_blank">
+							<a href="https://discord.gg/awq7t3nt8u" target="_blank">
 								<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
 							</a>
 						</div>
