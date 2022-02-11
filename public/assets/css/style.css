@@ -240,6 +240,10 @@ a {
     padding: 0 6vw;
 }
 
+.line-height-12 {
+    line-height: 1.2!important;
+}
+
 .line-height-15 {
     line-height: 1.5!important;
 }
@@ -291,8 +295,8 @@ a {
 
 .font_general {
     color: #fff;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 35px;
     /* font-family: 'Rubik'; */
     font-style: normal;
     font-weight: normal;
@@ -320,12 +324,12 @@ a {
 
 .footer-font {
     font-weight: 400 !important;
-    font-size: 32px;
+    font-size: 30px;
 }
 
-.footer_round {
+/* .footer_round {
     box-shadow: 0px 0px 10px rgb(255 255 255 / 53%) !important;
-}
+} */
 
 .add-padding {
     padding-right: 12% !important;
@@ -366,7 +370,9 @@ a {
 
 .panel p {
     color: white;
-    font-size: 24px !important;
+    font-size: 22px !important;
+    line-height: 1.2;
+    margin-bottom: 5px;
 }
 
 .connected-wallet {
@@ -398,7 +404,7 @@ a {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 36px;
     color: #e5e5e5;
     text-transform: uppercase;
 }
@@ -412,13 +418,25 @@ a {
     margin-bottom: 0;
 }
 
-.roadmap-padding {
-    padding-left: 8% !important;
-    padding-right: 8% !important;
-    /* background-color: #fff!important; */
+.roadmap_right_content {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #e5e5e5!important;
 }
 
 /* button animation */
+@media only screen and (min-width:1366px) {
+    .game-title {
+        font-size: 35px;
+    }
+    .main-container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .join-button {
+        font-size: 35px!important;
+    }
+}
 
 @media only screen and (max-width:1366px) {
     .navbar_logo {
@@ -429,10 +447,6 @@ a {
         font-size: 20px;
         line-height: 36px;
     }
-    .top_title {
-        font-size: 41px;
-        /* line-height: 78px; */
-    }
     .top_title_num {
         font-size: 45px;
         line-height: 45px;
@@ -440,7 +454,7 @@ a {
     .dot {
         background: #FFFFFF;
         box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.53);
-        padding: 3px 13px;
+        /* padding: 3px 13px; */
         border-radius: 50%;
     }
     .font_default {
@@ -571,10 +585,6 @@ a {
     width: 100%;
 }
 
-.join-discord {
-    padding: 2% 2% 0 2%;
-}
-
 .join-discord-title {
     font-size: 4vw;
     color: #00d1ef;
@@ -590,14 +600,14 @@ a {
 }
 
 .dot_data {
-    margin-top: 67px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .dot {
     background: #fff;
     box-shadow: 0px 0px 13px #99969687;
-    padding: 5px 15px;
+    padding: 0px 10px;
     margin-left: -5px;
     border-radius: 50%;
     border: solid 5px #00d1ef;
@@ -611,7 +621,7 @@ a {
     background: #00d1ef;
     box-shadow: 0px 0px 7px #00cfef42;
     left: 4%;
-    top: 125px;
+    top: 58px;
     height: 98%;
     z-index: 0;
 }
@@ -621,8 +631,10 @@ a {
 }
 
 .join-discord {
+    padding: 2% 2% 0 2%;
     background: url(../images/discord_background.jpg);
     background-size: 100%;
+    margin-top: 100px;
 }
 
 .join-discord-content {
@@ -696,7 +708,7 @@ img {
 
 .accordion-container {
     border: #00d1ef 3px solid;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .accordion {
@@ -818,9 +830,9 @@ h4 {
     width: 100%;
 }
 
-@media(max-width: 1350px) {
+/* @media(max-width: 1350px) {
     .dot_data {
-        margin-top: 31px;
+        margin-top: 50px;
         text-align: center;
     }
     .roadmap .top_one .row.position-relative:after {
@@ -828,16 +840,15 @@ h4 {
         content: "";
         width: 4px;
         background: #8BC4FF;
-        /* box-shadow: 0px 0px 7px rgb(118 185 255 / 46%); */
         left: 3.9%;
         top: 88px;
         height: 100%;
         z-index: 0;
     }
-}
+} */
 
 .roadmap_round {
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53);
+    /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53); */
     border: solid 3px #00cfefc4;
     /* background: #04091a; */
 }
@@ -866,7 +877,7 @@ h4 {
     }
 
     .top_title {
-        font-size: 24px;
+        font-size: 20px;
         /* line-height: 34px; */
     }
     .top_data {
@@ -995,7 +1006,12 @@ h4 {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
+    .roadmap_right_content {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .welcome-text-block {
         margin-top: 30px;
     }
@@ -1011,6 +1027,11 @@ h4 {
     .game-title {
         margin-top: 50px;
         font-size: 8vw;
+    }
+
+    .roadmap-padding {
+        padding-left: 8% !important;
+        padding-right: 8% !important;
     }
 
     .website-hero-back {
@@ -1079,13 +1100,13 @@ h4 {
         width: 3px;
         background: #00d1ef;
         left: 8%;
-        top: 108px;
+        top: 60px;
     }
     .member-picture {
         width: 50%;
     }
     .dot_data {
-        margin-top: 50px;
+        margin-top: 23px;
     }
     .member_name {
         text-align: center;
@@ -1105,22 +1126,6 @@ h4 {
         line-height: 37px;
         text-align: center;
         /* or 167% */
-    }
-}
-
-.communfity_text {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 49.99px;
-    line-height: 62px;
-    color: #1F1D1D;
-}
-
-@media only screen and (max-width:1366px) {
-    .communfity_text {
-        font-size: 36px;
-        line-height: 54px;
     }
 }
 
