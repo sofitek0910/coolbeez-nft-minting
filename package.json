@@ -20,7 +20,7 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "author": "Milo Oster",
+  "author": "Malin Zhang",
   "license": "MIT",
   "scripts": {
     "start": "set PORT=3500 && react-scripts start",
