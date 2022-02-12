@@ -1,9 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { connect } from "./redux/blockchain/blockchainActions";
-import { fetchData } from "./redux/data/dataActions";
 import swal  from 'sweetalert';
-import styled from "styled-components";
 
 function App() {
   const comingSoon = () => {
@@ -467,7 +463,7 @@ function App() {
 					<div className="col-lg-1 col-md-0"></div>
 				</div>
 			</section>
-			{/* <section className="social-links text-center">
+		   {/* <section className="social-links text-center">
 				<a href="https://twitter.com/CoolBeezNFT" target="_blank">
 					<i className="fab fa-twitter social-icon"></i>
 				</a>
@@ -483,7 +479,7 @@ function App() {
 				<a href=" https://www.mymetafoundation.org/" target="_blank">
 					<i className="fa fa-link social-icon"></i>
 				</a>
-			</section> */}
+			</section>  */}
 		</div>
     </div>
   );
