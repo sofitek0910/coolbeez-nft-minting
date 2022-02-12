@@ -31,11 +31,7 @@
     src: url('../fonts/LDFComicSansBold.ttf');
 }
 
-/*  my new css */
 body {
-    /* background: url(../images/website_background.png);
-    background-size: 100%;
-    background-attachment: fixed; */
     background-color: #272C34;
 }
 
@@ -177,18 +173,6 @@ a {
     width: 100%;
     height: 100%;
     z-index: -2;
-}
-
-.navbar_button:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #530b7c;
-    transition: all 0.3s;
-    z-index: -1;
 }
 
 .navbar_button:hover {
@@ -839,23 +823,6 @@ h4 {
     width: 100%;
 }
 
-/* @media(max-width: 1350px) {
-    .dot_data {
-        margin-top: 50px;
-        text-align: center;
-    }
-    .roadmap .top_one .row.position-relative:after {
-        position: absolute;
-        content: "";
-        width: 4px;
-        background: #8BC4FF;
-        left: 3.9%;
-        top: 88px;
-        height: 100%;
-        z-index: 0;
-    }
-} */
-
 .roadmap_round {
     /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53); */
     border: solid 3px #00cfefc4;
@@ -1177,9 +1144,6 @@ h4 {
         height: 7vw;
         padding: 0 2vw;
     }
-    /* .section-qa {
-        padding: 8vw 0;
-    } */
     .slide-container .mySwiper {
         padding: 10vw 4vw;
     }
