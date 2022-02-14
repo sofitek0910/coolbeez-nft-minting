@@ -33,18 +33,18 @@ function App() {
 				</div>
 				<div className="row mx-0 px-0 pt-30">
 					<div className="col-md-6 mt-md-0 px-5 mr-0">
-						<div className="text-center font_general line-height-15 mb-5 wow fadeInLeft">
+						<div className="font_general line-height-15 mb-5 wow fadeInLeft">
 							•	Holders of a CoolBeez NFT are automatically granted membership and all the benefits of the largest land-NFT owning community in the metaverse with a portfolio that spans all metaverse platforms and grows with every release of a My Meta Foundation NFT collection. 
 						</div>
-						<div className="text-center font_general line-height-15 mb-5 wow fadeInLeft">
+						<div className="font_general line-height-15 mb-5 wow fadeInLeft">
 							•	The first NFT that comes with 100% Land-NFT property ownership in 3 of the most popular metaverse platforms.
 						</div>
 					</div>
 					<div className="col-md-6 px-5">
-						<div className="text-center font_general line-height-15 mb-5 wow fadeInRight">
+						<div className="font_general line-height-15 mb-5 wow fadeInRight">
 							•	Land-NFTs and revenues generated from the properties are held in Community Development Fund wallet for the development and growth of the property portfolio and the distribution of passive income to all NFT holders. 
 						</div>
-						<div className="text-center font_general line-height-15 mb-5 wow fadeInRight">
+						<div className="font_general line-height-15 mb-5 wow fadeInRight">
 							•	Verifiable smart contracts designed to create trust and Total Blockchain Transparency, and to facilitate the creation and funding of the Community Development Fund wallet.
 						</div>
 					</div>
