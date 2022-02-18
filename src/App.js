@@ -28,10 +28,12 @@ function App() {
 					<span className="section_title line-height-15">WELCOME TO THE COOLBEEZ</span>
 				</div>
 				<div className="text-center pt-30 px-5 line-height-15 font_general wow fadeInUp">
-					Coolbeez is a unique Ethereum based NFT collection featuring 6000 NFTs generated from hand drawn characters 
-					and 165 traits and is the first in a series of community collections from <a href="https://www.mymetafoundation.org/" target="_blank">My Meta Foundation</a> .
+					Coolbeez is a unique Ethereum based NFT collection featuring 6000 NFTs generated from hand drawn characters and 165 traits and is the first in a series of community collections from  <a href="https://www.mymetafoundation.org/" target="_blank">My Meta Foundation.</a> <br/>
+					The CoolBeez vision is to create games within the metaverse which will be accessible for free to all holders of our NFTs. 
+					{/* Coolbeez is a unique Ethereum based NFT collection featuring 6000 NFTs generated from hand drawn characters 
+					and 165 traits and is the first in a series of community collections from <a href="https://www.mymetafoundation.org/" target="_blank">My Meta Foundation</a> . */}
 				</div>
-				<div className="row mx-0 px-0 pt-30">
+				{/* <div className="row mx-0 px-0 pt-30">
 					<div className="col-md-6 mt-md-0 px-5 mr-0">
 						<div className="font_general line-height-15 mb-5 wow fadeInLeft">
 							•	Holders of a CoolBeez NFT are automatically granted membership and all the benefits of the largest land-NFT owning community in the metaverse with a portfolio that spans all metaverse platforms and grows with every release of a My Meta Foundation NFT collection. 
@@ -59,7 +61,7 @@ function App() {
 							MINT
 						</button>
 					</div>
-				</div>
+				</div> */}
 			</section>
 
 			<section className="slide-container">
@@ -122,7 +124,7 @@ function App() {
 				</div>
 			</section>
 
-			<section className="game-section pt-30">
+			{/* <section className="game-section pt-30">
 				<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
 					<div className="section_title line-height-15">Why chose one when you can own land in all 3!</div>
 				</div>
@@ -145,9 +147,9 @@ function App() {
 						<img className="mt-3 img-thumbnail" src="./assets/images/somniumspace.png"></img>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
-			<div className="col-12 text-center d-flex justify-content-center pt-30">
+			{/* <div className="col-12 text-center d-flex justify-content-center pt-30">
 				<span className="section_title gtfcduyjdc wow fadeInUp">THE ROADMAP</span>
 			</div>
 			<div className="coolbeez-content text-center font_general line-height-18 wow bounceIn pt-30">
@@ -350,7 +352,7 @@ function App() {
 						</div>
 					</section>
 				</div>
-			</div>
+			</div> */}
 			
 
 			{/* <section className="section-qa">
