@@ -66,7 +66,7 @@ function App() {
 
 			<section className="slide-container">
 				<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
-					<div className="section_title line-height-15">CoolBeez NFT</div>
+					<div className="section_title line-height-15">COOLBEEZ NFT</div>
 				</div>
 				{/* <div className="coolbeez-content text-center font_general line-height-18 pt-30 wow bounceIn">
 					All metaverse real estate, utilities and subsequent revenues generated in the metaverse by the community real estate portfolio will be 100% owned by our NFT holders and held in the CDF. 
@@ -116,7 +116,7 @@ function App() {
 								Or enter competitions for anything from 1ETH to life changing land-NFT giveaways? 
 								Join our Discord to be part of the largest metaverse movement ever!
 							</div>
-							<a href="https://discord.gg/awq7t3nt8u" target="_blank">
+							<a href="https://discord.gg/A2KY3XChPZ" target="_blank">
 								<button className="join-button"><i className="fab fa-discord"></i> JOIN DISCORD</button>
 							</a>
 						</div>
