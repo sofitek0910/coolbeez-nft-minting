@@ -9,9 +9,6 @@ function App() {
   return (
     <div>
 		<nav className="navbar container-fluid wow fadeInDown">
-			{/* <a href="#">
-				<div className="navbar_logo float-left">Coolbeez</div>
-			</a> */}
 			<div className="float-right navbar_right">
 				<button className="connect-button btn ml-2 d-inline-block no-display"><i className="fa-solid fa-network-wired"></i> CONNECT</button>
 			</div>
