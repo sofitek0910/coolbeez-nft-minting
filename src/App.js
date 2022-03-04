@@ -471,6 +471,7 @@ function App() {
 					<div className="col-lg-1 col-md-0"></div>
 				</div>
 			</section>
+			
 		   {/* <section className="social-links text-center">
 				<a href="https://twitter.com/CoolBeezNFT" target="_blank">
 					<i className="fab fa-twitter social-icon"></i>
