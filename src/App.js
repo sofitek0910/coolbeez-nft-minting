@@ -349,8 +349,7 @@ function App() {
 						</div>
 					</section>
 				</div>
-			</div> */}
-			
+			</div> */}			
 
 			{/* <section className="section-qa">
 				<div className="col-12 text-center d-flex justify-content-center">
