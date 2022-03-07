@@ -70,6 +70,7 @@ function App() {
 					All holders become virtual-landlords in the new virtual world with an equal share in the real estate portfolio based on the number of NFTs that you hold!
 					The Community Development Fund will also be used to develop anything from game rooms, events halls and stores to VR meeting and private family rooms. 
 				</div> */}
+				
 				<div className="swiper mySwiper wow fadeIn">
 					<div className="swiper-wrapper">
 						<div className="swiper-slide">
@@ -471,7 +472,7 @@ function App() {
 					<div className="col-lg-1 col-md-0"></div>
 				</div>
 			</section>
-			
+
 		   {/* <section className="social-links text-center">
 				<a href="https://twitter.com/CoolBeezNFT" target="_blank">
 					<i className="fab fa-twitter social-icon"></i>
