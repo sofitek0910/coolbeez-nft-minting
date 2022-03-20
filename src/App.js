@@ -18,7 +18,6 @@ function App() {
 			<img className="width-100 website-hero-back" src="./assets/images/new_banner.png"/>
 			<img className="width-100 mobile-hero-back" src="./assets/images/new_banner_mobile.png"/>
 		</section>
-
 		<div className="main-container">
 			<section className="about-section">
 				<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
